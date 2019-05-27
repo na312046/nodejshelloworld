@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello world , welcome to Node.js !\n');
+  res.send('Hello world, welcome to Node.js !\n');
 });
 
 var port = process.env.PORT||PORT;
